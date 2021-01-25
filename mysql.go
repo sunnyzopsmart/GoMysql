@@ -1,8 +1,3 @@
-//
-//  go-unit-test-sql
-//
-//  Copyright © 2020. All rights reserved.
-//
 
 package main
 
@@ -23,7 +18,7 @@ type Employee struct {
 	RoleID int `json:"roleId"`
 	Gender string `json:"gender"`
 }
-// repository represent the repository model
+
 type sqlDb struct {
 	db *sql.DB
 }
